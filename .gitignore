@@ -1,0 +1,45 @@
+# Python virtual environments and generated files
+.venv/
+venv/
+**/.venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Python test, type-check, and lint caches
+.pytest_cache/
+**/.pytest_cache/
+pytest-cache-files-*/
+**/pytest-cache-files-*/
+.ruff_cache/
+**/.ruff_cache/
+.mypy_cache/
+**/.mypy_cache/
+.coverage
+htmlcov/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# JavaScript dependencies and generated frontend builds
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Editor and operating system metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
