@@ -43,3 +43,6 @@ dist/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Backup of the voice-agent repository metadata
+/vuai-ai-agent.git-backup/
